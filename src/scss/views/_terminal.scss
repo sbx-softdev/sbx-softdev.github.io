@@ -1,0 +1,36 @@
+@import "../variables";
+
+.view-terminal {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+
+    @keyframes blink {
+        25% {
+            opacity: 0;
+        }
+    }
+
+    ._blink {
+        animation: blink ($gr * 1s) linear infinite;
+        background-color: $psblue;
+        display: inline-block;
+        height: 1em;
+        width: $gr_major * 1em;
+        vertical-align: text-bottom;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        dl {
+            margin: ($gr * 1em) ($gr * 2em);
+            //overflow-y: scroll;
+
+            dd {
+                white-space: nowrap;
+            }
+        }
+    }
+}

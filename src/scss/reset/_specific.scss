@@ -1,0 +1,32 @@
+:focus {
+    outline: 0;
+}
+
+body {
+    background: white;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    vertical-align: middle;
+}
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+code,
+pre.code {
+    font-size: 0.75rem;
+    font-family: source-code-pro, "Roboto Mono", Menlo, Monaco, Consolas, "Courier New", monospace;
+}

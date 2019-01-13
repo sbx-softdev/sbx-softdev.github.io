@@ -1,0 +1,28 @@
+@import "./variables";
+
+.fg-blue {
+    color: $blue;
+}
+
+.fg-err {
+    color: $fg-err;
+}
+
+.fg-pink {
+    color: $pink;
+}
+
+.fg-psblue {
+    color: $psblue;
+}
+
+.text-not-selectable,
+.text-not-selectable * {
+    cursor: default;
+    user-select: none;
+}
+
+.text-selectable,
+.text-selectable * {
+    user-select: text;
+}

@@ -1,0 +1,39 @@
+@import "./variables";
+
+body {
+    font-family: "Roboto", "Noto", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    color: #212121;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+    text-rendering: optimizeLegibility;
+}
+
+a,
+a:link,
+a:visited {
+    color: $link;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darken($link, 25%);
+}
+
+a:active {
+    color: lighten($link, 25%);
+}
+
+strong {
+    font-weight: 700;
+}

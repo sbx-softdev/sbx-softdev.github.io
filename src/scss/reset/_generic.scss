@@ -1,0 +1,222 @@
+@mixin --reset-box-model {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+@mixin --reset-font {
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+/* basic elements */
+html {
+    @include --reset-box-model;
+    @include --reset-font;
+    display: block;
+}
+
+/* document metadata */
+base,
+head,
+link,
+meta,
+style,
+title {
+}
+
+/* content sectioning */
+address,
+article,
+aside,
+footer,
+header,
+hgroup,
+nav,
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    @include --reset-box-model;
+    @include --reset-font;
+    display: block;
+}
+
+/* text content */
+dd,
+div,
+dl,
+dt,
+figcaption,
+figure,
+hr,
+li,
+main,
+ol,
+p,
+pre,
+ul {
+    @include --reset-box-model;
+    @include --reset-font;
+    display: block;
+}
+
+/* inline text semantics */
+a,
+abbr,
+b,
+bdi,
+bdo,
+br,
+cite,
+code,
+data,
+dfn,
+em,
+i,
+kbd,
+mark,
+q,
+rp,
+rt,
+rtc,
+ruby,
+s,
+samp,
+small,
+span,
+strong,
+sub,
+sup,
+time,
+u,
+var,
+wbr {
+    @include --reset-box-model;
+    @include --reset-font;
+    display: inline;
+}
+
+/* image and multimedia */
+area,
+audio,
+img,
+map,
+track,
+video {
+    @include --reset-box-model;
+    @include --reset-font;
+}
+
+/* embedded content */
+embed,
+object,
+param,
+source {
+    @include --reset-box-model;
+    @include --reset-font;
+}
+
+/* scripting */
+canvas,
+noscript,
+script {
+    @include --reset-box-model;
+    @include --reset-font;
+}
+
+/* demarcating edits */
+del,
+ins {
+    @include --reset-box-model;
+    @include --reset-font;
+}
+
+/* table content */
+caption,
+col,
+colgroup,
+table,
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    @include --reset-box-model;
+    @include --reset-font;
+}
+
+/* forms */
+button,
+datalist,
+fieldset,
+form,
+input,
+label,
+legend,
+meter,
+optgroup,
+option,
+output,
+progress,
+select,
+textarea {
+    @include --reset-box-model;
+    @include --reset-font;
+}
+
+/* interactive elements */
+details,
+dialog,
+menu,
+menuitem,
+summary {
+    @include --reset-box-model;
+    @include --reset-font;
+}
+
+/* Web Components */
+content,
+element,
+shadow,
+template {
+    @include --reset-box-model;
+    @include --reset-font;
+}
+
+/* obsolete and deprecated elements */
+acronym,
+applet,
+basefont,
+big,
+blink,
+center,
+command,
+content,
+dir,
+font,
+frame,
+frameset,
+isindex,
+keygen,
+listing,
+marquee,
+multicol,
+nextid,
+noembed,
+plaintext,
+spacer,
+strike,
+tt,
+xmp {
+    @include --reset-box-model;
+    @include --reset-font;
+}
