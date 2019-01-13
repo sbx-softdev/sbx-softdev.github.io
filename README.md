@@ -1,2 +1,1 @@
-# sbx-softdev.github.io
-sbx.io
+[sbx.io](https://sbx.io)
